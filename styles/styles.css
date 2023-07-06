@@ -6,7 +6,7 @@
 /* navbar section styles */
 
 .menu-container {
-    background-color: #686161;
+    background-color: #3f3131;
     color: #ffff;
     display: flex;
     justify-content: space-around;
@@ -31,3 +31,53 @@
 }
 
 /* banner section styles */
+
+.banner-comtainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    background-image: url(../images/background.png), linear-gradient(45deg, rgb(97, 23, 23), rgb(29, 29, 66));
+    color: #ffff;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo {
+    width: 300px;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+    padding: 13px 20px;
+    color: #ffff;
+    border-radius: 3px;
+}
+
+/* about us section styles */
+
+.about-us {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.about-us-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+/*  Our Service section styles */
