@@ -37,10 +37,10 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    height: 100vh; 
-    
+    height: 100vh;
+
     /* background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e); */
-    background-image:linear-gradient(45deg, rgb(39, 26, 121), rgba(78, 53, 40, 0.699)),url('images/product-3.jpg');
+    background-image: linear-gradient(45deg, rgb(39, 26, 121), rgba(78, 53, 40, 0.699)), url('images/product-3.jpg');
     /* background-image: linear-gradient(92deg, rgba(0, 102, 255, 0.973), rgb(0 0 255 / 0%)),url('images/product-1.jpg'); */
     color: #ffff;
     background-position: center;
@@ -74,7 +74,7 @@
 
 .about-us {
     text-align: center;
-    padding: 25px 0px 15px;  
+    padding: 25px 0px 15px;
 }
 
 .about-us-container {
@@ -87,16 +87,16 @@
 /*  Our Service section styles */
 .Service-container {
     color: #ffff;
-    background-image: linear-gradient(92deg, rgba(15, 17, 20, 0.973), rgba(8, 8, 19, 0)),url('images/product-1.jpg');
+    background-image: linear-gradient(92deg, rgba(15, 17, 20, 0.973), rgba(8, 8, 19, 0)), url('images/product-1.jpg');
     padding: 50px;
-    
+
 }
 
 .box-container {
     display: flex;
     justify-content: space-around;
 
-  
+
 }
 
 .box {
@@ -114,15 +114,58 @@
     width: 70px;
 
 }
-.box-btn{
+
+.box-btn {
     background-color: #1b0b0b;
 }
-.box-title{
-padding: 10px;
-}
-/* footer section styles */
 
-.footer-container{
+.box-title {
+    padding: 10px;
+}
+
+/* footer section styles */
+footer {
+    width: 100%;
+    height: 70vh;
     background-color: #1b0b0b;
     color: #ffff;
+    line-height: 1.8em;
+}
+
+/* display: flex;
+width: 75%;
+height: 60vh;
+margin: 0 auto;
+justify-content: space-around;
+align-items: center;
+padding: 20px; */
+/* border-bottom: 1px solid gray; */
+
+.footer-container {
+
+    width: 75%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  margin: 0 auto;
+    padding: 20px;
+}
+
+.copy {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin: 10px 100px;
+}
+
+.logo-box {
+    width: 25%;
+}
+
+.logo-box img {
+    width: 170px;
 }
