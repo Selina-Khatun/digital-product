@@ -37,8 +37,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    height: 100vh;
-    background-image: url(../images/background.png), linear-gradient(45deg, rgb(97, 23, 23), rgb(29, 29, 66));
+    height: 100vh; 
+    
+    /* background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e); */
+    background-image:linear-gradient(45deg, rgb(39, 26, 121), rgba(78, 53, 40, 0.699)),url('images/product-3.jpg');
+    /* background-image: linear-gradient(92deg, rgba(0, 102, 255, 0.973), rgb(0 0 255 / 0%)),url('images/product-1.jpg'); */
     color: #ffff;
     background-position: center;
     background-size: cover;
@@ -71,7 +74,7 @@
 
 .about-us {
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0px 15px;  
 }
 
 .about-us-container {
@@ -80,4 +83,46 @@
     padding-top: 20px;
     margin-top: 20px;
 }
+
 /*  Our Service section styles */
+.Service-container {
+    color: #ffff;
+    background-image: linear-gradient(92deg, rgba(15, 17, 20, 0.973), rgba(8, 8, 19, 0)),url('images/product-1.jpg');
+    padding: 50px;
+    
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+
+  
+}
+
+.box {
+    background-color: black;
+    /* color: #ffff; */
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 4px 2px 105px rgb(212, 211, 211);
+    border-radius: 5px;
+}
+
+.icon {
+    width: 70px;
+
+}
+.box-btn{
+    background-color: #1b0b0b;
+}
+.box-title{
+padding: 10px;
+}
+/* footer section styles */
+
+.footer-container{
+    background-color: #1b0b0b;
+    color: #ffff;
+}
